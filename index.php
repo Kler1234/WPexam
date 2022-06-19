@@ -28,8 +28,8 @@
 				the_post();
 
 				echo '<h2><a href="'. get_permalink() .'">'. get_the_title() .'</a></h2>';
-
 				echo get_the_excerpt();
+				echo '<h2><a href="'. get_permalink() .'">'. 'Читать далее' .'</a></h2>';
 			}
 		}
 		// елси записей не найдено
